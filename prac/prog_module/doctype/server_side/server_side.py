@@ -116,4 +116,4 @@ def new_method_freeze(msg):
 	import time
 	time.sleep(10)
 	frappe.msgprint(msg)
-	return "Freeze Done"
+	return "Freeze Done All is done"
