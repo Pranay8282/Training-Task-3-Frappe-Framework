@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-03 10:08:23.281131",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_r0gg",
+  "amended_from",
+  "bbb",
+  "ccc"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_r0gg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "AAA",
+   "no_copy": 1,
+   "options": "Client",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "bbb",
+   "fieldtype": "Data",
+   "label": "BBB"
+  },
+  {
+   "fieldname": "ccc",
+   "fieldtype": "Data",
+   "label": "CCC"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-02-03 10:09:14.227080",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "Client",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
