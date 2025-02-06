@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-04 18:09:24.972511",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "aaa",
+  "bbb",
+  "imp"
+ ],
+ "fields": [
+  {
+   "fieldname": "aaa",
+   "fieldtype": "Data",
+   "label": "AAA"
+  },
+  {
+   "fieldname": "bbb",
+   "fieldtype": "Link",
+   "label": "BBB",
+   "options": "Leave Application Doctype"
+  },
+  {
+   "fieldname": "imp",
+   "fieldtype": "Table",
+   "label": "IMp",
+   "options": "imp1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-06 17:05:55.513305",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "Importtt",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

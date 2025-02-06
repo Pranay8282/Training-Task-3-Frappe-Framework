@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-05 11:46:32.334714",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hiee"
+ ],
+ "fields": [
+  {
+   "fieldname": "hiee",
+   "fieldtype": "Data",
+   "label": "Hiee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-06 17:06:07.351469",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "imp2",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
