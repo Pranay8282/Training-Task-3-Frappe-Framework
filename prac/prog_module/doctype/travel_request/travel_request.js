@@ -11,11 +11,9 @@ frappe.ui.form.on("Travel Request", {
         frm.toggle_display("visa_required", frm.doc.travel_type === "International");
     },
     travel_cost: function(frm) {
-        // Show Manager Approval field only if Travel Cost > 1000
         frm.toggle_display("manager_approval", frm.doc.travel_cost > 1000);
     },
     validate: function(frm) {
-        // Ensure logic is checked before submission
         if (frm.doc.travel_type === "International" && !frm.doc.visa_required) {
             frappe.throw("Visa is required for international travel.");
         }
