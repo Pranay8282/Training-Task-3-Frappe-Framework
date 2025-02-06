@@ -12,11 +12,13 @@
   "employe",
   "employee_name",
   "leave_type",
+  "medical_certificate",
   "column_break_ikiv",
   "from_date",
   "to_date",
   "total_days",
-  "reason"
+  "reason",
+  "manager_approval"
  ],
  "fields": [
   {
@@ -82,12 +84,23 @@
    "fieldname": "reason",
    "fieldtype": "Small Text",
    "label": "Reason"
+  },
+  {
+   "fieldname": "medical_certificate",
+   "fieldtype": "Attach Image",
+   "label": "Medical Certificate"
+  },
+  {
+   "default": "0",
+   "fieldname": "manager_approval",
+   "fieldtype": "Check",
+   "label": "Manager Approve"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-06 17:06:43.901024",
+ "modified": "2025-02-06 17:54:58.848263",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Leave Application Doctype",
