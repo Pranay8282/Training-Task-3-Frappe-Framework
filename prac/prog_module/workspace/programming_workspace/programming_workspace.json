@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"a5c98a4AUc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">programming_workspace</span>\",\"col\":12}},{\"id\":\"bC1FCLXXjj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"id\":\"BixSniMXqJ\",\"type\":\"card\",\"data\":{\"card_name\":\"InDoc\",\"col\":4}},{\"id\":\"KDxgIT45mS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Scripting_prac\",\"col\":3}},{\"id\":\"qtOSpSAuDw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Server\",\"col\":3}},{\"id\":\"OjiUSSE91C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ifv1-T157C\",\"type\":\"card\",\"data\":{\"card_name\":\"Links\",\"col\":4}}]",
+ "content": "[{\"id\":\"a5c98a4AUc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">programming_workspace</span>\",\"col\":12}},{\"id\":\"bC1FCLXXjj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"id\":\"BixSniMXqJ\",\"type\":\"card\",\"data\":{\"card_name\":\"InDoc\",\"col\":4}},{\"id\":\"qtOSpSAuDw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Server\",\"col\":3}},{\"id\":\"KDxgIT45mS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Scripting_prac\",\"col\":3}},{\"id\":\"OjiUSSE91C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oY0avHeaOc\",\"type\":\"card\",\"data\":{\"card_name\":\"MyExtra Works \",\"col\":4}}]",
  "creation": "2025-02-03 10:22:19.857744",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,36 +13,6 @@
  "is_hidden": 0,
  "label": "programming_workspace",
  "links": [
-  {
-   "description": "todo",
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Links",
-   "link_count": 2,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Client",
-   "link_count": 0,
-   "link_to": "Client",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Server Side",
-   "link_count": 0,
-   "link_to": "server side",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
   {
    "hidden": 0,
    "is_query_report": 0,
@@ -61,9 +31,28 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "MyExtra Works ",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Assets list for Wrokflow ",
+   "link_count": 0,
+   "link_to": "Assets Access List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2025-02-04 15:05:17.065270",
+ "modified": "2025-02-06 12:12:01.457837",
  "modified_by": "pranay@sanskartechnolab.com",
  "module": "prog_module",
  "name": "programming_workspace",
@@ -84,18 +73,18 @@
    "type": "DocType"
   },
   {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Client",
-   "link_to": "Client",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
    "color": "Red",
    "doc_view": "List",
    "label": "Scripting_prac",
    "link_to": "scripting",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Client",
+   "link_to": "Client",
    "stats_filter": "[]",
    "type": "DocType"
   }

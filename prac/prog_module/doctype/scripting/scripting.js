@@ -32,6 +32,9 @@ frappe.ui.form.on("scripting", {
         },'click me')
     },
 
+
+    
+
     validate:function(frm){
         frm.set_value('full_name' ,frm.doc.first_name + " " + frm.doc.middle_name + " " + frm.doc.last_name)
 
@@ -42,6 +45,9 @@ frappe.ui.form.on("scripting", {
             relation:"Father",
         });
     },
+
+
+
 
 
     enable:function(frm){
