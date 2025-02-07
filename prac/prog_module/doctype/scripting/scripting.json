@@ -55,7 +55,8 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Read Only",
-   "label": "Full Name"
+   "label": "Full Name",
+   "permlevel": 1
   },
   {
    "fieldname": "column_break_tnml",
@@ -95,13 +96,14 @@
    "default": "0",
    "fieldname": "enable",
    "fieldtype": "Check",
-   "label": "Enable"
+   "label": "Enable",
+   "permlevel": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-03 11:46:36.238059",
+ "modified": "2025-02-07 17:05:47.426581",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "scripting",
@@ -120,9 +122,33 @@
    "share": 1,
    "submit": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Script Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
   }
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "first_name"
 }
