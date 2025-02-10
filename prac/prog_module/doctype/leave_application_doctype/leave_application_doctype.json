@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "format:SL-{DD}-{MM}-{YYYY}-{####}",
  "creation": "2025-02-06 12:50:06.769416",
@@ -13,6 +14,8 @@
   "employee_name",
   "leave_type",
   "medical_certificate",
+  "is_published",
+  "route",
   "column_break_ikiv",
   "from_date",
   "to_date",
@@ -95,11 +98,24 @@
    "fieldname": "manager_approval",
    "fieldtype": "Check",
    "label": "Manager Approve"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "is published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "has_web_view": 1,
+ "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-10 11:54:13.122858",
+ "modified": "2025-02-10 15:48:44.308166",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Leave Application Doctype",
