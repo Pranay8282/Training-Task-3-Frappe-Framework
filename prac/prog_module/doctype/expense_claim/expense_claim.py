@@ -5,5 +5,6 @@
 from frappe.website.website_generator import WebsiteGenerator
 from frappe.model.document import Document
 
-class AssetsAccessList(Document):
+
+class ExpenseClaim(Document):
 	pass

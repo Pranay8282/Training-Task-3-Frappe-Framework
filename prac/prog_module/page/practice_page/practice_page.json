@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2025-02-10 10:54:23.682181",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-02-10 10:54:23.682181",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "practice_page",
+ "owner": "Administrator",
+ "page_name": "practice_page",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Demo"
+}

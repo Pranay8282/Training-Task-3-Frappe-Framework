@@ -8,6 +8,8 @@
   "is_approved",
   "user",
   "time_period",
+  "is_published",
+  "route",
   "column_break_luvu",
   "assets",
   "reason",
@@ -64,12 +66,25 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "is Published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-06 17:06:50.468698",
+ "modified": "2025-02-10 11:59:02.757413",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Assets Access List",
@@ -90,6 +105,7 @@
    "write": 1
   }
  ],
+ "route": "reason",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
