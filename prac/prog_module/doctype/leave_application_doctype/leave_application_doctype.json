@@ -115,7 +115,7 @@
  "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-10 15:48:44.308166",
+ "modified": "2025-02-10 18:34:40.404243",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Leave Application Doctype",
@@ -138,6 +138,5 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "title_field": "employee_name"
+ "states": []
 }

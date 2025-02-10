@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"a5c98a4AUc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">programming_workspace</span>\",\"col\":12}},{\"id\":\"bC1FCLXXjj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"id\":\"BixSniMXqJ\",\"type\":\"card\",\"data\":{\"card_name\":\"InDoc\",\"col\":4}},{\"id\":\"qtOSpSAuDw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Server\",\"col\":3}},{\"id\":\"KDxgIT45mS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Scripting_prac\",\"col\":3}},{\"id\":\"vplpNTwnSf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"OjiUSSE91C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oY0avHeaOc\",\"type\":\"card\",\"data\":{\"card_name\":\"MyExtra Works \",\"col\":4}}]",
+ "content": "[{\"id\":\"a5c98a4AUc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">programming_workspace</span>\",\"col\":12}},{\"id\":\"bC1FCLXXjj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"id\":\"qtOSpSAuDw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Server\",\"col\":3}},{\"id\":\"KDxgIT45mS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Scripting_prac\",\"col\":3}},{\"id\":\"vplpNTwnSf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"Ljqn4YKdxA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Access \",\"col\":3}},{\"id\":\"mXFojVeudD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"InDoc\",\"col\":3}},{\"id\":\"R83TI0kB8N\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"MN5Y79YyuF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Request\",\"col\":3}},{\"id\":\"OjiUSSE91C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oY0avHeaOc\",\"type\":\"card\",\"data\":{\"card_name\":\"MyExtra Works \",\"col\":4}}]",
  "creation": "2025-02-03 10:22:19.857744",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,25 +13,6 @@
  "is_hidden": 0,
  "label": "programming_workspace",
  "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "InDoc",
-   "link_count": 1,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "InDoc",
-   "link_count": 0,
-   "link_to": "InDoc",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
   {
    "hidden": 0,
    "is_query_report": 0,
@@ -52,7 +33,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-02-07 17:55:33.888943",
+ "modified": "2025-02-10 18:23:17.652739",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "programming_workspace",
@@ -70,6 +51,14 @@
    "label": "Dashboard",
    "link_to": "Prog_dashboard",
    "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Access ",
+   "link_to": "Assets Access List",
+   "stats_filter": "[]",
+   "type": "DocType"
   },
   {
    "color": "Grey",
@@ -92,6 +81,30 @@
    "doc_view": "List",
    "label": "Client",
    "link_to": "Client",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "InDoc",
+   "link_to": "InDoc",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Leave Application",
+   "link_to": "Leave Application Doctype",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Travel Request",
+   "link_to": "Travel Request",
    "stats_filter": "[]",
    "type": "DocType"
   }
