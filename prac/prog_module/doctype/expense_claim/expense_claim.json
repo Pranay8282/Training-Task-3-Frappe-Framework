@@ -1,6 +1,5 @@
 {
  "actions": [],
- "allow_rename": 1,
  "autoname": "format:EC-{####}",
  "creation": "2025-02-10 10:09:48.265112",
  "doctype": "DocType",
@@ -96,7 +95,7 @@
  "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-10 11:43:38.979651",
+ "modified": "2025-02-11 12:39:20.203099",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Expense Claim",

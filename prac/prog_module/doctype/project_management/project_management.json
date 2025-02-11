@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:TM-{######}",
+ "creation": "2025-02-11 15:56:18.606509",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yvsr",
+  "amended_from",
+  "task_name",
+  "due_date",
+  "column_break_vxhi",
+  "statuse",
+  "user",
+  "username"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_yvsr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project Management",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "task_name",
+   "fieldtype": "Data",
+   "label": "Task Name"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "statuse",
+   "fieldtype": "Select",
+   "label": "Statuse",
+   "options": "Open\nIn progress\nCompleted"
+  },
+  {
+   "fieldname": "column_break_vxhi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "Leave Application Doctype"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "username",
+   "options": "Leave Application Doctype\n.employee_name",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-02-11 16:12:35.068772",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "Project Management",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
