@@ -249,5 +249,9 @@ fixtures =[
 doc_events = {
     "Project Management": {
         "before_save": "prac.prog_module.doctype.project_management.project_management.fetch_employee_name"
+    },
+
+    "extends":{
+        "before_save": "prac.prog_module.doctype.extends.extends.fetch_value"
     }
 }

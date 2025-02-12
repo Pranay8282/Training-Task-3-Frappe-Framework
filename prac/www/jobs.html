@@ -1,0 +1,11 @@
+<h1>Job Openings</h1>
+
+{% for job in jobs %}
+    <div>
+        <a href="/{{ job.route }}"><h2>{{ job.job_title }}</h2></a>
+        <p><strong>Company:</strong> {{ job.company }}</p>
+        <p><strong>Location:</strong> {{ job.location }}</p>
+        <p><strong>Salary:</strong> {{ job.salary }}</p>
+    </div>
+    <hr>
+{% endfor %}
