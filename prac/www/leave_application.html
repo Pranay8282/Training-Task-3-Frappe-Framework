@@ -1,0 +1,12 @@
+<h2>Leave Applications</h2>
+
+{% for leave in leaves %}
+    <div>
+        <p><strong>Employee:</strong> {{ leave.employe }}</p>
+        <p><strong>Start Date:</strong> {{ leave.from_date }}</p>
+        <p><strong>End Date:</strong> {{ leave.to_date }}</p>
+        <p><strong>Total Days:</strong> {{ leave.total_days }}</p>
+        <p><strong>Certificate:</strong> <img src="{{ leave.medical_certificate }}" style="height: 1000px; width: 1000px;" alt=""></p>
+    </div>
+    <hr>
+{% endfor %}

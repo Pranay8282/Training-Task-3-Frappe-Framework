@@ -54,7 +54,7 @@
    "fieldname": "user",
    "fieldtype": "Link",
    "label": "User",
-   "options": "Leave Application Doctype"
+   "options": "Leave Application"
   },
   {
    "fieldname": "username",
@@ -67,7 +67,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-11 16:12:35.068772",
+ "modified": "2025-02-12 16:13:21.131697",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Project Management",

@@ -1,7 +1,7 @@
 // Copyright (c) 2025, Sanskar and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on("Leave Application Doctype", {
+frappe.ui.form.on("Leave Application", {
 
     onload: function(frm) {
         frm.trigger("leave_type");  // Apply conditions on form load

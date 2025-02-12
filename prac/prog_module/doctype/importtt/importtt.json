@@ -19,7 +19,7 @@
    "fieldname": "bbb",
    "fieldtype": "Link",
    "label": "BBB",
-   "options": "Leave Application Doctype"
+   "options": "Leave Application"
   },
   {
    "fieldname": "imp",
@@ -30,7 +30,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-06 17:05:55.513305",
+ "modified": "2025-02-12 16:13:20.786789",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Importtt",

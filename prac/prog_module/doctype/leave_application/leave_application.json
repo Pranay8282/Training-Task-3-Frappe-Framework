@@ -40,7 +40,7 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Leave Application Doctype",
+   "options": "Leave Application",
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
@@ -115,10 +115,10 @@
  "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-10 18:34:40.404243",
+ "modified": "2025-02-12 17:23:31.914069",
  "modified_by": "Administrator",
  "module": "prog_module",
- "name": "Leave Application Doctype",
+ "name": "Leave Application",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

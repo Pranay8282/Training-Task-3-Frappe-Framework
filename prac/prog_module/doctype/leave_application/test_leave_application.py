@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestLeaveApplicationDoctype(FrappeTestCase):
+class TestLeaveApplication(FrappeTestCase):
 	pass
