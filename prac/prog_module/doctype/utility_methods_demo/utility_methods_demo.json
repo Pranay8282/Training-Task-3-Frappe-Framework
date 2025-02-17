@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "UMD-.####",
+ "creation": "2025-02-17 09:58:48.491730",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "amount",
+  "currency",
+  "transaction_time",
+  "created_by_user",
+  "document_hash",
+  "column_break_udtp",
+  "rounded_amount",
+  "amount_in_words",
+  "random_string",
+  "created_on",
+  "email",
+  "phone",
+  "timezone_info"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "column_break_udtp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rounded_amount",
+   "fieldtype": "Float",
+   "label": "Rounded Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amount_in_words",
+   "fieldtype": "Data",
+   "label": "Amount In Words",
+   "read_only": 1
+  },
+  {
+   "fieldname": "random_string",
+   "fieldtype": "Data",
+   "label": "Random String",
+   "read_only": 1
+  },
+  {
+   "fieldname": "created_on",
+   "fieldtype": "Data",
+   "label": "Created On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "label": "Amont"
+  },
+  {
+   "fieldname": "transaction_time",
+   "fieldtype": "Datetime",
+   "label": "Transaction Time ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "created_by_user",
+   "fieldtype": "Data",
+   "label": "Created By User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "document_hash",
+   "fieldtype": "Data",
+   "label": "Document Hash",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "timezone_info",
+   "fieldtype": "Data",
+   "label": "Timezone Info",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-17 10:40:04.725061",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "Utility Methods Demo",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

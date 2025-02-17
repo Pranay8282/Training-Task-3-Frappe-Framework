@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PH-.####",
+ "creation": "2025-02-17 11:36:48.988606",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "purchase_date",
+  "quantity_purchased",
+  "column_break_pspz",
+  "price_per_unit",
+  "supplier_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "purchase_date",
+   "fieldtype": "Date",
+   "label": "Purchase Date"
+  },
+  {
+   "fieldname": "quantity_purchased",
+   "fieldtype": "Int",
+   "label": "Quantity Purchased"
+  },
+  {
+   "fieldname": "column_break_pspz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price_per_unit",
+   "fieldtype": "Currency",
+   "label": "Price Per Unit"
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Data",
+   "label": "Supplier Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-17 11:38:45.792067",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "Purchase History",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

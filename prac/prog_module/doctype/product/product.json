@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PRD-.######",
+ "creation": "2025-02-17 11:39:21.802213",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "product_code",
+  "category",
+  "purchase_history",
+  "column_break_ggyf",
+  "stock_quantity",
+  "unit_price",
+  "supplier",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "label": "Product Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Electronics\nFurniture\nClothing"
+  },
+  {
+   "fieldname": "column_break_ggyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stock_quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Stock Quantity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "unit_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Unit Price",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nout of stock"
+  },
+  {
+   "fieldname": "purchase_history",
+   "fieldtype": "Table",
+   "label": "Purchase History",
+   "options": "Purchase History"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-17 12:30:27.191323",
+ "modified_by": "Administrator",
+ "module": "prog_module",
+ "name": "Product",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
