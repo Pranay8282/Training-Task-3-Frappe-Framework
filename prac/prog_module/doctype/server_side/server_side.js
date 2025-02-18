@@ -23,7 +23,7 @@ frappe.ui.form.on("server side", {
             frm.call({
                 method:'new_method_freeze',
                 args:{
-                    msg:"Ohh No system was freezed for 10sec"
+                    msg:"Ohh No system is freezed for 10sec"
                 },
                 freeze:true,
                 freeze_message:__('System was freeze'),
