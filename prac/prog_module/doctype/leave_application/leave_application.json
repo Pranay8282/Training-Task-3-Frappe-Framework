@@ -1,10 +1,12 @@
 {
  "actions": [],
  "allow_guest_to_view": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:SL-{DD}-{MM}-{YYYY}-{####}",
  "creation": "2025-02-06 12:50:06.769416",
  "doctype": "DocType",
+ "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
   "section_break_urv4",
@@ -115,7 +117,7 @@
  "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-12 17:23:31.914069",
+ "modified": "2025-02-17 15:42:22.487297",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Leave Application",
@@ -136,6 +138,7 @@
    "write": 1
   }
  ],
+ "search_fields": "employe",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

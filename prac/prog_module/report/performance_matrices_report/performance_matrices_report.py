@@ -64,6 +64,6 @@ def execute(filters=None):
         "type": "bar"
     }
 
-    return columns, data, None, chart
+    return columns, data, None,  chart
 
 

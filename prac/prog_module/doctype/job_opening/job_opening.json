@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_guest_to_view": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2025-02-12 11:55:05.618434",
  "doctype": "DocType",
@@ -86,7 +87,7 @@
  "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-12 12:21:14.959158",
+ "modified": "2025-02-17 15:47:11.456142",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Job Opening",
@@ -104,6 +105,15 @@
    "share": 1,
    "submit": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Newsletter Manager",
+   "share": 1
   }
  ],
  "route": "route",
