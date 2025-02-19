@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "LB-.####",
@@ -37,7 +38,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-18 11:28:49.763920",
+ "modified": "2025-02-19 15:37:11.211957",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Library Book",
