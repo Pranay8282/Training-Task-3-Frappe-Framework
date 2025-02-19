@@ -14,14 +14,20 @@
   },
   {
    "card": "performance Matrices"
+  },
+  {
+   "card": "Library Book"
+  },
+  {
+   "card": "Library Members"
+  },
+  {
+   "card": "Library Transaction"
   }
  ],
  "charts": [
   {
    "chart": "Prac_chart",
-   "width": "Half"
-  },
-  {
    "width": "Half"
   },
   {
@@ -39,6 +45,18 @@
   {
    "chart": "Performance Matrics",
    "width": "Half"
+  },
+  {
+   "chart": "Library Book",
+   "width": "Half"
+  },
+  {
+   "chart": "Library Members",
+   "width": "Half"
+  },
+  {
+   "chart": "Library Transaction",
+   "width": "Half"
   }
  ],
  "creation": "2025-02-07 17:34:16.043165",
@@ -48,7 +66,7 @@
  "idx": 1,
  "is_default": 1,
  "is_standard": 1,
- "modified": "2025-02-13 16:20:05.072033",
+ "modified": "2025-02-19 18:41:25.267375",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Prog_dashboard",
