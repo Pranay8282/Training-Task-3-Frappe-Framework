@@ -27,9 +27,5 @@ frappe.ui.form.on("Library Member", {
             });
         });
 
-        // Add new button to redirect to /jobs page
-        frm.add_custom_button("Go to Jobs", function () {
-            window.location.href = "/jobs";  // Redirect to /jobs page
-        });
     }
 });

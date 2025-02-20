@@ -17,3 +17,4 @@ frappe.pages['my_chart_page'].on_page_load = function(wrapper) {
         height: 300
     });
 };
+    
