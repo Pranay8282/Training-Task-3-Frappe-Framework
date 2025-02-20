@@ -255,3 +255,6 @@ doc_events = {
         "before_save": "prac.prog_module.doctype.extends.extends.fetch_value"
     }
 }
+
+
+doctype_list_js = {"Library Book": "public/js/library_book_list.js"}

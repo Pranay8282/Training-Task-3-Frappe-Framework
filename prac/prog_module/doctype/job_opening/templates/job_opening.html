@@ -1,12 +1,45 @@
 {% extends "templates/web.html" %}
 
 {% block page_content %}
-    <h1>{{ doc.job_title }}</h1>
-    <p><strong>Company:</strong> {{ doc.company }}</p>
-    <p><strong>Location:</strong> {{ doc.location }}</p>
-    <p><strong>Salary:</strong> {{ doc.salary }}</p>
-    <p><strong>description</strong>{{doc.description}}</p>
+    <style>
+        .job-container {
+            max-width: 800px;
+            margin: auto;
+            margin-top: 44px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .job-container:hover {
+            transform: scale(1.02);
+        }
+        .job-title {
+            color: #007bff;
+        }
+        .apply-btn {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .apply-btn:hover {
+            background: #218838;
+        }
+    </style>
+    <div class="job-container">
+        <h1 class="job-title">{{ doc.job_title or 'No title available' }}</h1>
+        <p><strong>🏢 Company:</strong> {{ doc.company or 'Not specified' }}</p>
+        <p><strong>📍 Location:</strong> {{ doc.location or 'Not specified' }}</p>
+        <p><strong>💰 Salary:</strong> {{ doc.salary or 'Not specified' }}</p>
+        <p><strong>📝 Description:</strong> {{ doc.description if doc.description else 'No description available' }}</p>
+        <a href="#" class="apply-btn">Apply Now</a>
+    </div>
 {% endblock %}
-
 
 <!-- this is a sample default web page template -->

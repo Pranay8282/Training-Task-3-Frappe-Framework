@@ -1,12 +1,75 @@
-<h1>Job Openings</h1>
-
-{% for job in jobs %}
-    <div>
-        <a href="/{{ job.route }}"><h2>{{ job.job_title }}</h2></a>
-        <p><strong>Company:</strong> {{ job.company }}</p>
-        <p><strong>Location:</strong> {{ job.location }}</p>
-        <p><strong>Salary:</strong> {{ job.salary }}</p>
-        <!-- <p><strong>description</strong>{{job.description}}</p> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Openings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .job-container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .job-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .job-card:hover {
+            transform: scale(1.02);
+        }
+        .job-title {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .job-title:hover {
+            text-decoration: underline;
+        }
+        .job-info {
+            margin: 10px 0;
+        }
+        .apply-btn {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .apply-btn:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="job-container">
+        <h1>🔥 Latest Job Openings</h1>
+        {% if jobs %}
+            {% for job in jobs %}
+                <div class="job-card">
+                    <a href="/{{ job.route }}" class="job-title"><h2>{{ job.job_title or 'No title available' }}</h2></a>
+                    <p class="job-info"><strong>🏢 Company:</strong> {{ job.company or 'Not specified' }}</p>
+                    <p class="job-info"><strong>📍 Location:</strong> {{ job.location or 'Not specified' }}</p>
+                    <p class="job-info"><strong>💰 Salary:</strong> {{ job.salary or 'Not specified' }}</p>
+                    <p class="job-info"><strong>📝 Description:</strong> 
+                        {{ job.description[:150] + '...' if job.description else 'No description available' }}
+                    </p>
+                    <a href="/{{ job.route }}" class="apply-btn">Apply Now</a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No job openings available at the moment.</p>
+        {% endif %}
     </div>
-    <hr>
-{% endfor %}
+</body>
+</html>
