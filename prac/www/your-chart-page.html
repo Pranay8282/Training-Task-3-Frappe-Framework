@@ -1,0 +1,18 @@
+
+<!-- your-app/www/your-chart-page.html -->
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+    <div id="chart"></div>
+{% endblock %}
+
+<script src="https://unpkg.com/frappe-charts@latest"></script>
+<script>
+    const chart = new frappe.Chart("#chart", {
+        type: 'bar',
+        data: {
+            labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+            datasets: [{ values: [10, 20, 30, 40, 50] }]
+        }
+    });
+</script>

@@ -257,4 +257,4 @@ doc_events = {
 }
 
 
-doctype_list_js = {"Library Book": "public/js/library_book_list.js"}
+doctype_list_js = {"Library Book": "public/js/library_book_list.js","Leave Application":"public/js/leave_application_list.js"}

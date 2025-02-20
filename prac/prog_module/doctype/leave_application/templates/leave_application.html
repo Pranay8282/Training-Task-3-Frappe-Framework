@@ -1,7 +1,8 @@
 {% extends "templates/web.html" %}
 
 {% block page_content %}
-<h1>{{ title }}</h1>
+<h1>{{ doc.employe }}</h1>
+<p>{{ doc.leave_type}}</p>
+<img src="{{doc.medical_certificate}}" alt="" sytle="width: 1000px; height: 100px;">
+<p>{{ doc.from_date}}</p>
 {% endblock %}
-
-<!-- this is a sample default web page template -->

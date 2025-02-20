@@ -62,7 +62,7 @@
                     <p class="job-info"><strong>📍 Location:</strong> {{ job.location or 'Not specified' }}</p>
                     <p class="job-info"><strong>💰 Salary:</strong> {{ job.salary or 'Not specified' }}</p>
                     <p class="job-info"><strong>📝 Description:</strong> 
-                        {{ job.description[:150] + '...' if job.description else 'No description available' }}
+                        {{ job.description + '...' if job.description else 'No description available' }}
                     </p>
                     <a href="/{{ job.route }}" class="apply-btn">Apply Now</a>
                 </div>
