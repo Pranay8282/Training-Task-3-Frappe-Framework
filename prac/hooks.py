@@ -258,3 +258,7 @@ doc_events = {
 
 
 doctype_list_js = {"Library Book": "public/js/library_book_list.js","Leave Application":"public/js/leave_application_list.js"}
+
+page_js = {"my_custom_page": "public/js/my_custom_page.js"}
+
+
