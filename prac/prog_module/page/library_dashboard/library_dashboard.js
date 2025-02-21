@@ -119,4 +119,3 @@ frappe.pages['library_dashboard'].on_page_load = function(wrapper) {
     // Load books when the page loads
     fetch_books();
 };
-	
