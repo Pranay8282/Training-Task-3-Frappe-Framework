@@ -68,4 +68,5 @@ function create_library_transaction(values) {
             }
         }
     });
+    
 }
