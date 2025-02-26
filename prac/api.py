@@ -74,3 +74,8 @@ def issue_book(book_name, member_name):
         "member": member_name,
         "issue_date": transaction.issue_date
     }
+
+
+@frappe.whitelist()
+def my_custom_api():
+    return "Hello, API is working!"
