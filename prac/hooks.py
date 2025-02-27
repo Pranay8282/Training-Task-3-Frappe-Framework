@@ -253,6 +253,9 @@ doc_events = {
 
     "extends":{
         "before_save": "prac.prog_module.doctype.extends.extends.fetch_value"
+    },
+    "Blood Donor": {
+        "blood_donor_wbh": "prac.api.blood_donor_wbh"
     }
 }
 

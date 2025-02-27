@@ -1,5 +1,6 @@
 import frappe
 from frappe import _
+import json
 
 
 @frappe.whitelist()
@@ -80,3 +81,25 @@ def issue_book(book_name, member_name):
 def my_custom_api():
     return "Hello, API is working!"
     
+
+@frappe.whitelist(allow_guest=True)
+def blood_donor_wbh():
+    try:
+        # Get JSON data from request
+        data = frappe.local.form_dict
+
+        # Log data for debugging
+        frappe.logger().info(f"Received Webhook Data: {json.dumps(data)}")
+
+        # Create a new document in 'Webhook Logs' Doctype (if exists)
+        doc = frappe.get_doc({
+            "doctype": "Webhook Logs",
+            "event": "New Blood Donor",
+            "data": json.dumps(data)
+        })
+        doc.insert(ignore_permissions=True)
+
+        return {"status": "success", "message": "Webhook data received"}
+    except Exception as e:
+        frappe.logger().error(f"Webhook Error: {str(e)}")
+        return {"status": "error", "message": str(e)}
