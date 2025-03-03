@@ -95,6 +95,7 @@ def blood_donor_wbh():
         doc = frappe.get_doc({
             "doctype": "Webhook Logs",
             "event": "New Blood Donor",
+            
             "data": json.dumps(data)
         })
         doc.insert(ignore_permissions=True)

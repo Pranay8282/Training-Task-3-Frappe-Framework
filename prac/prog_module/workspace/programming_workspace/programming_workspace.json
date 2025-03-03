@@ -1,5 +1,10 @@
 {
- "charts": [],
+ "charts": [
+  {
+   "chart_name": "Library Members",
+   "label": "Library Member"
+  }
+ ],
  "content": "[{\"id\":\"a5c98a4AUc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">programming_workspace</span>\",\"col\":12}},{\"id\":\"bC1FCLXXjj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"id\":\"qtOSpSAuDw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Server\",\"col\":3}},{\"id\":\"KDxgIT45mS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Scripting_prac\",\"col\":3}},{\"id\":\"vplpNTwnSf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"Ljqn4YKdxA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Access \",\"col\":3}},{\"id\":\"mXFojVeudD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"InDoc\",\"col\":3}},{\"id\":\"R83TI0kB8N\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"MN5Y79YyuF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Request\",\"col\":3}},{\"id\":\"OjiUSSE91C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oY0avHeaOc\",\"type\":\"card\",\"data\":{\"card_name\":\"MyExtra Works \",\"col\":4}}]",
  "creation": "2025-02-03 10:22:19.857744",
  "custom_blocks": [],
@@ -33,7 +38,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-02-10 18:23:17.652739",
+ "modified": "2025-03-03 10:33:41.535264",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "programming_workspace",
@@ -96,7 +101,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Leave Application",
-   "link_to": "Leave Application Doctype",
+   "link_to": "Leave Application",
    "stats_filter": "[]",
    "type": "DocType"
   },
