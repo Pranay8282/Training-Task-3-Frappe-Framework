@@ -54,6 +54,7 @@
    "options": "User"
   },
   {
+   "fetch_from": "employe.full_name",
    "fieldname": "employee_name",
    "fieldtype": "Data",
    "label": "Employee Name"
@@ -117,7 +118,7 @@
  "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-17 15:42:22.487297",
+ "modified": "2025-03-10 11:19:21.515675",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "Leave Application",

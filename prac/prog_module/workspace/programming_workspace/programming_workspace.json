@@ -1,11 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Library Members",
-   "label": "Library Member"
-  }
- ],
- "content": "[{\"id\":\"a5c98a4AUc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">programming_workspace</span>\",\"col\":12}},{\"id\":\"bC1FCLXXjj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"id\":\"qtOSpSAuDw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Server\",\"col\":3}},{\"id\":\"KDxgIT45mS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Scripting_prac\",\"col\":3}},{\"id\":\"vplpNTwnSf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"Ljqn4YKdxA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Access \",\"col\":3}},{\"id\":\"mXFojVeudD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"InDoc\",\"col\":3}},{\"id\":\"R83TI0kB8N\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"MN5Y79YyuF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Request\",\"col\":3}},{\"id\":\"OjiUSSE91C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oY0avHeaOc\",\"type\":\"card\",\"data\":{\"card_name\":\"MyExtra Works \",\"col\":4}}]",
+ "charts": [],
+ "content": "[{\"id\":\"a5c98a4AUc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">programming_workspace</span>\",\"col\":12}},{\"id\":\"bC1FCLXXjj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"id\":\"qtOSpSAuDw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Server\",\"col\":3}},{\"id\":\"KDxgIT45mS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Scripting_prac\",\"col\":3}},{\"id\":\"vplpNTwnSf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"Ljqn4YKdxA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Access \",\"col\":3}},{\"id\":\"mXFojVeudD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"InDoc\",\"col\":3}},{\"id\":\"R83TI0kB8N\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"MN5Y79YyuF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Request\",\"col\":3}},{\"id\":\"OjiUSSE91C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oY0avHeaOc\",\"type\":\"card\",\"data\":{\"card_name\":\"MyExtra Works \",\"col\":4}},{\"id\":\"p4DxsCWFuz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"896UZ4gx3v\",\"type\":\"card\",\"data\":{\"card_name\":\"Library Section\",\"col\":4}}]",
  "creation": "2025-02-03 10:22:19.857744",
  "custom_blocks": [],
  "docstatus": 0,
@@ -36,9 +31,68 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Library Section",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Books",
+   "link_count": 0,
+   "link_to": "Library Book",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Members",
+   "link_count": 0,
+   "link_to": "Library Member",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "rewiews",
+   "link_count": 0,
+   "link_to": "Library Review",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transactions",
+   "link_count": 0,
+   "link_to": "Library Transaction",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Dashboard",
+   "link_count": 0,
+   "link_to": "library_dashboard",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2025-03-03 10:33:41.535264",
+ "modified": "2025-03-11 10:31:44.045118",
  "modified_by": "Administrator",
  "module": "prog_module",
  "name": "programming_workspace",
