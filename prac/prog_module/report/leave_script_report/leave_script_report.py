@@ -27,7 +27,7 @@ def execute(filters=None):
 
 def get_chart(columns, data):
     labels = [row["leave_type"] for row in data]
-    values = [5, 10, 15]  # Replace this with actual values if needed
+    values = [5, 10, 15]  
 
     return {
         "data": {
